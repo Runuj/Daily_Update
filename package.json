@@ -1,0 +1,19 @@
+{
+  "name": "daily_classs_update",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Runuj/Daily_Classs_Update.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Runuj/Daily_Classs_Update/issues"
+  },
+  "homepage": "https://github.com/Runuj/Daily_Classs_Update#readme"
+}
