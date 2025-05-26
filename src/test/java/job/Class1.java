@@ -10,7 +10,7 @@ public class Class1 {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		driver.manage().window().maximize();
-		
+		driver.quit();
 		
 	}
 
