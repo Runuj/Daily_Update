@@ -16,6 +16,13 @@ public class Class2 {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
+		driver.navigate().to("https://mvnrepository.com/search?q=selenium+java");
+		driver.navigate().back();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.navigate().forward();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.navigate().refresh();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.quit();
 
 	}
